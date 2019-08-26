@@ -70,8 +70,8 @@ namespace ConsoleApp10
         static void Main(string[] args)
         {
             BankAccount account_me = new BankAccount("12345","gao_ge",1234);
-            BankAccount account_JPMorgan = new BankAccount("123456", "JPMorgan", 6666);
-            account_me.TansferTo(1000, account_JPMorgan);
+            BankAccount account_iss= new BankAccount("123456", "iss", 6666);
+            account_me.TansferTo(1000, account_iss);
             Console.WriteLine(account_me.Balance);
         }
     }
